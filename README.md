@@ -9,6 +9,9 @@ Specifically you can transfer a virtual machine from <a href="http://cloud.intel
   <li>a Linux distribution</li>
   <li><a href="http://www.qemu.org/">Qemu</a> command-line tool, is an open source machine emulator and virtualizer.</li>
   <li>Curl (Client URL Library) for PHP</li>
+  <li>Fiware account</li>
+  <li>Intellicloud account</li>
+  <li>StratoGen account</li>
 </ul>
 
 <h3>Getting Started</h3>
