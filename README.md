@@ -21,3 +21,7 @@ Clone `cloud-migration` repository to your server.
 Change `assets` folder permissions to `rw-`
 <br>
 Now browse to the app at `server-ip/cloud-migration`
+
+###Use `cloud-migration`
+
+Browse at <a href="http://147.27.60.220/migration/">cloud-migration</a>
