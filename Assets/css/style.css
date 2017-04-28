@@ -1,0 +1,113 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400);
+body {
+  width: 80%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  font-family: "Alegreya Sans";
+}
+
+p {
+  font-family: "Alegreya Sans";
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+  color: #171515;
+  font-size: .7em;
+}
+a:hover {
+  color: #52CC7A;
+}
+
+header {
+  padding: 0.2em .2em .5em;
+  font-size: 3em;
+  color: #171515;
+  font-weight: 300;
+}
+header span {
+  margin-top: -.2em;
+  margin-bottom: .8em;
+  display: block;
+  font-size: .5em;
+  font-weight: 300;
+  letter-spacing: 1.35px;
+}
+header .home {
+  margin-right: .85em;
+  width: 30%;
+  font-size: .65em;
+  display: inline-block;
+  text-align: left;
+}
+
+.review {
+  border-radius: 2em;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.8) 30%, rgba(0, 0, 0, 0.5) 80%), url("../images/cloud-computing.jpg");
+  background-size: 100% 100%;
+  text-align: center;
+}
+.review .review1 {
+  width: 500px;
+  margin: 0;
+  padding: 2em 1em;
+  font-size: 1.8em;
+  color: #171515;
+  font-weight: 300;
+  text-align: left;
+}
+.review .review1 span {
+  margin-top: 1em;
+  display: block;
+  font-size: .85em;
+  font-weight: 300;
+  letter-spacing: -.6px;
+}
+.review button {
+  display: inline-block;
+  margin: 0 0 3em;
+  padding: .5em 1em;
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 300;
+  background: none;
+  border: #fff 3px solid;
+  border-radius: 5px;
+  appearance: none;
+  transition: all .25s;
+}
+.review button:hover {
+  background: #fff;
+  color: #111;
+}
+
+.wrap {
+  margin: 1em auto;
+  max-width: 950px;
+}
+
+.grid {
+  display: inline-block;
+  vertical-align: top;
+}
+.grid h2 {
+  text-align: center;
+}
+.grid p {
+  font-size: 1.5em;
+}
+
+.col3 {
+  width: 30%;
+  padding: 0 1%;
+  text-align: center;
+}
+
+.footer {
+	margin-right:1em;
+	margin-bottom:1em;
+	text-align: right;
+}

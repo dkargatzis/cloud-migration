@@ -1,0 +1,154 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+body {
+  width: 80%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  font-family: "Alegreya Sans";
+}
+
+p {
+  font-family: "Alegreya Sans";
+  font-weight: 200;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #171515;
+  font-size: .7em;
+}
+a:hover {
+  color: #226677;
+}
+
+h2 {
+	text-align: center;
+	color: #45AAA5;
+}
+
+header {
+  padding: 0.2em .2em .5em;
+  font-size: 3em;
+  color: #171515;
+  font-weight: 300;
+}
+
+.user {
+  float: right;
+  padding: 1.5em;
+  font-size: .35em;
+}
+
+.Logout {
+  display: inline;
+}
+
+.Logout input[type="submit"]{
+  background: none;
+  border: none;
+}
+
+.Logout:hover::after {
+  content: 'Logout';
+}
+
+header span {
+  margin-top: -.2em;
+  margin-bottom: .8em;
+  display: block;
+  font-size: .5em;
+  font-weight: 300;
+  letter-spacing: 1.35px;
+}
+header .home {
+  margin-right: .85em;
+  width: 30%;
+  font-size: .65em;
+  display: inline-block;
+  text-align: left;
+}
+
+
+
+
+.grid__container {
+  margin-top: 2em;
+  float: left;
+  width: 15rem;
+}
+
+.temp--grid {
+	margin-top: 2em;
+	width: 35em;
+	height: 25em;
+}
+
+.scroll {
+	height: 12em;
+	max-height: 12em;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+
+.form--servers,
+.form--images{
+  width: 950px;
+}
+
+.menu input[type="button"]{
+  width: 118px;
+  height: 25px;
+  border-radius: 0.35rem;
+  margin-top: 2em;
+  font-weight: bold;
+  background: none;
+}
+
+.form--images input[type="button"] {
+  font-weight: bold;
+  background: none;
+  border-radius: 1em;
+}
+
+.form--servers input[type="radio"],
+               input[type="submit"],
+.form--images  input[type="radio"],
+               input[type="submit"] {
+  margin-top: .8em;
+  font-weight: bold;
+}
+
+.form--servers input[type="submit"],
+.form--images input[type="submit"] {
+  float: right;
+  width: 130px;
+  height: 25px;
+  border-radius: 0.35rem;
+  margin-top: 6em;
+  background: none;
+}
+
+.form--servers input[type="submit"]:focus, .form--servers input[type="submit"]:hover
+.form--images input[type="submit"]:focus, .form--images input[type="submit"]:hover 
+.form--images input[type="button"]:focus, .form--images input[type="button"]:hover 
+.menu li input[type="button"]:focus, .menu li input[type="button"]:hover {
+  background-color: #E8E8E8  ;
+}
+
+.footer {
+	margin-right:1em;
+	margin-top:5em;
+	text-align: right;
+}
