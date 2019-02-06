@@ -2,6 +2,9 @@
 Cloud migration project is a platform that allows you to migrate a virtual machine between two Homogeneous but also  Heterogeneous Cloud Environments. The project utilizes the Openstack’s and VMware’s REST API to allow users to perform migration.
 <br><br>
 Specifically, you can transfer a virtual machine from an OpenStack platform (e.g. Intellicloud  to other OpenStack system (e.g. FIWARE Lab) or from OpenStack platform (e.g. FIWARE Lab) to a VMWare based platform. 
+
+Read the paper at <a href="https://ieeexplore.ieee.org/document/8080393">IEEE Xplore</a>
+
 <h3>Prerequisites</h3>
 
 <ul>
