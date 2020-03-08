@@ -59,7 +59,7 @@ Browse at <a href="http://147.27.60.220/migration/">cloud-migration</a>
 
 ## License
 
-License under the MIT License (MIT)
+GNU GENERAL PUBLIC LICENSE
 
 Copyright © 2017 [Dimitris Kargatzis](https://www.linkedin.com/in/dimitris-kargatzis-1385a2101/)
 
