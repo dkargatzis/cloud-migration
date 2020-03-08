@@ -30,6 +30,7 @@ Browse at <a href="http://147.27.60.220/migration/">cloud-migration</a>
 
 <h3>Directory Layout</h3>
 
+
 ```
 /                           --> all of the source files for the application
   index.php                 --> start page
@@ -54,4 +55,18 @@ Browse at <a href="http://147.27.60.220/migration/">cloud-migration</a>
     descr.ovf                 --> OVF descriptor (XML file) to initiate virtual machine 
     stratogen.php             --> HTTP requests for Stratogen (VMware) operations 
 
-```
+```   
+
+## License
+
+License under the MIT License (MIT)
+
+Copyright © 2017 [Dimitris Kargatzis](https://www.linkedin.com/in/dimitris-kargatzis-1385a2101/)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
